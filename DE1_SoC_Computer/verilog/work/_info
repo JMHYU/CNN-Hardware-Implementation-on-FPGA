@@ -1,0 +1,132 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog
+vcnn_acc_ci
+Z1 !s110 1718866259
+!i10b 1
+!s100 Z9_6FgCZmH7aeoPAGVmPJ2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ic3N_@IjgDZ`Bam[O8dQz22
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1718857468
+8C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_acc_ci.v
+FC:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_acc_ci.v
+Z5 Fdefines_cnn_core.vh
+!i122 0
+L0 3 430
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1718866259.000000
+!s107 defines_cnn_core.vh|timescale.vh|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_acc_ci.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_acc_ci.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vcnn_core
+R1
+!i10b 1
+!s100 kUcPHg6jiInz5_3C]z?Sh0
+R2
+I<A<LdK`0f:a4OEaHbQ6^R2
+R3
+R0
+R4
+8C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_core.v
+FC:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_core.v
+R5
+!i122 1
+Z10 L0 3 104
+R6
+r1
+!s85 0
+31
+R7
+!s107 defines_cnn_core.vh|timescale.vh|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_core.v|
+!i113 1
+R8
+R9
+vcnn_kernel
+R1
+!i10b 1
+!s100 ?VnkDOa:iFLRfPdT;::]P0
+R2
+I>dRTI>ehV]ie;H?>n6Q@g0
+R3
+R0
+R4
+8C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_kernel.v
+FC:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_kernel.v
+R5
+!i122 2
+L0 3 119
+R6
+r1
+!s85 0
+31
+R7
+!s107 defines_cnn_core.vh|timescale.vh|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_kernel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_kernel.v|
+!i113 1
+R8
+R9
+vcnn_topCore
+R1
+!i10b 1
+!s100 `WUY4PRU6QjMSL>>l:SfK3
+R2
+I39ZPzIRPAN5:YU3oi@lgj0
+R3
+R0
+R4
+8C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_topCore.v
+FC:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_topCore.v
+R5
+!i122 3
+R10
+R6
+r1
+!s85 0
+31
+R7
+!s107 defines_cnn_core.vh|timescale.vh|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_topCore.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/project/DE1_SoC_Computer/verilog/cnn_topCore.v|
+!i113 1
+R8
+R9
+ncnn_top@core
+vtb_cnn_core
+R1
+!i10b 1
+!s100 ElQ;1<F>XBGFozX6b8mRS1
+R2
+IhVFaSe231loVa2jdEH6Xe1
+R3
+R0
+R4
+8C:/Users/HYU/Desktop/cnn_core_upgrade/tb_cnn_core.v
+FC:/Users/HYU/Desktop/cnn_core_upgrade/tb_cnn_core.v
+R5
+!i122 4
+L0 7 159
+R6
+r1
+!s85 0
+31
+R7
+!s107 defines_cnn_core.vh|timescale.vh|C:/Users/HYU/Desktop/cnn_core_upgrade/tb_cnn_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HYU/Desktop/cnn_core_upgrade/tb_cnn_core.v|
+!i113 1
+R8
+R9
