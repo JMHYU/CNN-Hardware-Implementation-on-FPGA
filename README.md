@@ -13,5 +13,6 @@ I would like to express my deepest gratitude to Professor Ki-Seok Chung, TA Youn
 
 <br/> <br/>
 ## Result
+We can see that the Hardware performance is still better than that of SW even if we pipeline the MAC processes.
 ![Putty_results](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/d9a675a0-f5b2-4ddc-82a6-3def3fc167a8)
 
