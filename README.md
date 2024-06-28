@@ -17,8 +17,9 @@ I would like to express my deepest gratitude to Professor Ki-Seok Chung, TA Youn
 1. Software (C code) runs on the HPS (Hard Processor System).
 2. When the C code starts, the HPS writes a 1 to the least significant bit (LSB) of ON-CHIP SRAM 0, which serves as a handshake bit.
 3. The FPGA continuously checks this handshake bit to see if it is set to 1 during the polling state (mat_ops_controller.v).
-4. When the convolution operation is completed, the FPGA writes a 0 to the handshake bit.
-5. The HPS then checks the handshake bit and prints the results from SRAM1 and SRAM2.
+4. If the handshake bit is set to 1, then mat_ops_controller switches its state to START -> OPS -> DONE.
+5. When the convolution operation is completed, the FPGA writes a 0 to the handshake bit.
+6. The HPS then checks the handshake bit and prints the results from SRAM1 and SRAM2.
 
 <br/> <br/>
 ## Result
