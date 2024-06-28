@@ -21,8 +21,8 @@ I would like to express my deepest gratitude to Professor Ki-Seok Chung, TA Youn
 5. When the convolution operation is completed, the FPGA writes a 0 to the handshake bit.
 6. The HPS then checks the handshake bit and prints the results from SRAM1 and SRAM2.
 <br/>
-![cnn_kernel](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/fcbc5d08-e0b7-4730-8c11-316f3a9a8656)
-![cnn_core](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/e2003ee4-0312-490b-a418-b8f3f22975a1)
+![cnn_kernel](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/fcbc5d08-e0b7-4730-8c11-316f3a9a8656) <br/>
+![cnn_core](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/e2003ee4-0312-490b-a418-b8f3f22975a1) <br/>
 ![cnn_acc_ci](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/a1b26c11-9a77-492d-a272-de488c6216ab)
 
 
