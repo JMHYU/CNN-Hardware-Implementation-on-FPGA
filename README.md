@@ -9,4 +9,9 @@ I would like to express my deepest gratitude to Professor Ki-Seok Chung, TA Youn
 ## This repository
 - DE1_SoC_Computer_Unpipelined: This was the original design: we aimed to create fast hardware capable of computing an entire convolutional layer (kernel striding the input feature map -> accumulation) in about 4-5 cycles. However, due to the resource limitations of the DE1-SoC board (with only 87 DSP blocks), we had to pipeline this process for proper operation.
 
-- DE1_SoC_Computer/verilog: The only difference between DE1_SoC_Computer_Unpipelined and this version is in cnn_acc_ci.v and cnn_kernel.v. Now, we use an FSM to handle the striding process (kernel striding the input feature map from the top left to the bottom right). Each state parses a different set of input feature maps, multiplies them with the kernel, and accumulates the results. 
+- DE1_SoC_Computer/verilog: The only difference between DE1_SoC_Computer_Unpipelined and this version is in cnn_acc_ci.v and cnn_kernel.v. Now, we use an FSM to handle the striding process (kernel striding the input feature map from the top left to the bottom right). Each state parses a different set of input feature maps, multiplies them with the kernel, and accumulates the results.
+
+<br/> <br/>
+## Result
+![Putty_results](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/d9a675a0-f5b2-4ddc-82a6-3def3fc167a8)
+
