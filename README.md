@@ -19,3 +19,5 @@ We can see that the Hardware performance is still better than that of SW even if
 
 Even the pipelined version utilizes all the available DSP(floating point number multiplication) blocks.
 ![Total_DSP_Blocks](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/25f4216d-6471-48be-a350-30ed987535d3)
+![Total LABs](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/a0304fba-b839-42c0-bfeb-2ada412b7e11)
+![M10k blocks](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/771c9026-2195-4d14-9245-5bcab022a5eb)
