@@ -10,6 +10,14 @@ I would like to express my deepest gratitude to Professor Ki-Seok Chung, TA Youn
 - DE1_SoC_Computer_Unpipelined: This was the original design: we aimed to create fast hardware capable of computing an entire convolutional layer (kernel striding the input feature map -> accumulation) in about 4-5 cycles. However, due to the resource limitations of the DE1-SoC board (with only 87 DSP blocks), we had to pipeline this process for proper operation.
 
 - DE1_SoC_Computer/verilog: The only difference between DE1_SoC_Computer_Unpipelined and this version is in cnn_acc_ci.v and cnn_kernel.v. Now, we use an FSM to handle the striding process (kernel striding the input feature map from the top left to the bottom right). Each state parses a different set of input feature maps, multiplies them with the kernel, and accumulates the results.
+<br/> <br/>
+## Architecture
+![Architecture](https://github.com/JMHYU/CNN-Hardware-Implementation-on-FPGA/assets/165994759/c9bf6248-0edb-4a3a-8679-04a7f23d614e)
+1. SW (C codes) runs on HPS (Hard Processor System).
+2. When the C code starts, HPS writes 1 at the LSB of ON-CHIP SRAM 0, which is being used for a handshake bit.
+3. FPGA keeps checking this handshake bit to be 1 during the polling state(mat_ops_controller.v).
+4. When the Convolution operation is done, FPGA writes 0 to the handshake bit.
+5. HPS checks the handshake bit and print the result from SRAM1 and SRAM2.
 
 <br/> <br/>
 ## Result
